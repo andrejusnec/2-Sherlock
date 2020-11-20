@@ -47,7 +47,10 @@ div{
     /*width: 1000px;*/
     /*margin: 0 calc(50% - 500px);*/
     /*margin: 25px calc(50% - 500px);*/
-    width: 100%;
+    /*width: 100%;*/
+    width: 750px;
+    margin: 0px calc(50% - 375px);
+    /*padding: 35px 0;*/
 }
 .container > .left {
     display: inline-block;
@@ -58,12 +61,12 @@ div{
 .container > .left > .img{
     display:inline-block;
     /*width: 60%;*/
-    width: 300px;
-    margin: 0 calc(50% - 150px)
+    width: 286px;
+    margin: 0 calc(50% - 143px)
 }
 .container > .right {
     display: inline-block;
-    width: 35%;
+    width: 50%;
     float: left;
     /*margin: 100px 0px;*/
     /*margin: calc(50% - 35%) 0px;*/
@@ -74,19 +77,19 @@ div{
 .right > .title{
     display:inline-block;
     width: 80%;
-    font-size: 100px;
+    font-size: 80px;
     color: #000;
-    display: 80%;
+    display: 100%;
 }
 .right > .text {
     display:inline-block;
-    font-size: 32px;
-    width: 80%;
+    font-size: 26px;
+    width: 100%;
 }
 .footer{
     display: inline-block;
     text-align: center;
-    width: 80%;
+    width: 100%;
     font-size: 16px;
     /* margin-bottom: 20px; */
     margin-top: 30px;
@@ -101,7 +104,7 @@ a{
         margin-top:10px;
         text-decoration: none;
         text-transform: uppercase;
-}
+}/*
 @media (max-width: 1100px) {
     .container > .right.left {
         width: 800px;
@@ -113,17 +116,25 @@ a{
         width: 500px;
         margin: 0 calc(50% - 250px);
     }
-}
+}*/
 @media (max-width: 900px) {
+    .container{
+        
+    }
     .container > .left {
         width: 500px;
         margin: 0 calc(50% - 250px);
     }
+
+    .container > .right {
+    width: 500px;
+    margin: 0 calc(50% - 250px);
+    }
 }
-@media (max-width: 700px) {
+@media (max-width: 750px) {
     .container {
-        padding-left: 20px;
-        padding-right: 20px;
+        width: 350px;
+        margin: 0 calc(50% - 175px);
     }
         .container > .right {
             width: 100%;
